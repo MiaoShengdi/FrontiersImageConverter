@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frontiers 图片转换工具"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="输出：RGB、300 dpi、LZW 压缩 TIFF，单文件不超过 10 MB"
+            android:textSize="14sp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnPick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择图片（可多选）" />
+
+        <TextView
+            android:id="@+id/tvFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="尚未选择图片"
+            android:textSize="14sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnDir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择输出目录" />
+
+        <TextView
+            android:id="@+id/tvDir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="尚未选择输出目录"
+            android:textSize="14sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始转换" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="就绪"
+            android:textSize="14sp"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本软件仅供学术投稿使用，禁止商用"
+            android:textColor="#b00020"
+            android:textSize="14sp"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
