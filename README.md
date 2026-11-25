@@ -1,5 +1,7 @@
 # Frontiers 图片转换工具
 
+[English](README.en.md) | 中文
+
 一键把 PNG / JPG / JPEG / BMP / WEBP / GIF / TIF 等常见图片转换为符合 Frontiers 投稿要求的 TIFF 图片，提供 Windows 桌面版（exe）与 Android 手机版（apk）。
 
 ## 输出规格
